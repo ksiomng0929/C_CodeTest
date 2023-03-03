@@ -11,10 +11,8 @@ bool vis[MAX][MAX];
 int dist[MAX][MAX];
 
 int N, M;
-int a;
 int dx[4] = { 1, 0, -1, 0};
 int dy[4] = { 0, 1, 0, -1};
-int cnt = 0;
 
 int main() {
     ios::sync_with_stdio(false); cin.tie(0);
@@ -36,7 +34,6 @@ int main() {
     while(!Q.empty()){
         pair<int,int> cur = Q.front();
         Q.pop();
-        cnt++;
         for(int i = 0; i < 4; i++){
             int nx = cur.X + dx[i];
             int ny = cur.Y + dy[i];
