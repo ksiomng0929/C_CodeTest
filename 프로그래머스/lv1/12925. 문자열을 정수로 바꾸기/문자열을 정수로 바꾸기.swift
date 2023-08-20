@@ -1,3 +1,3 @@
 func solution(_ s:String) -> Int {
-    return Int(String(s))!
+    return Int(s)!
 }
