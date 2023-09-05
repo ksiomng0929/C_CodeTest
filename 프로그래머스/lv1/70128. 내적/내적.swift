@@ -4,4 +4,6 @@ func solution(_ a:[Int], _ b:[Int]) -> Int {
         c += a[i] * b[i]
     }
     return c
+    
+//  return zip(a, b).map(*).reduce(0, +)
 }
