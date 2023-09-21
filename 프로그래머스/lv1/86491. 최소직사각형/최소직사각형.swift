@@ -1,5 +1,6 @@
 import Foundation
 
+// < 내가 푼 풀이 >
 func solution(_ sizes:[[Int]]) -> Int {
     var max = 0
     var min = 0
@@ -23,3 +24,15 @@ func solution(_ sizes:[[Int]]) -> Int {
     }
     return (max * min)
 }
+
+// < 인상깊은 다른사람 풀이 >
+//func solution(_ sizes:[[Int]]) -> Int {
+//    var maxNum = 0
+//    var minNum = 0
+//
+//    for size in sizes {
+//        maxNum = max(maxNum, size.max()!)
+//        minNum = max(minNum, size.min()!)
+//    }
+//    return maxNum * minNum
+//}
