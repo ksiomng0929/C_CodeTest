@@ -1,10 +1,10 @@
 # [unrated] 홀짝 구분하기 - 181944 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181944) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181944?language=swift) 
 
 ### 성능 요약
 
-메모리: 3.68 MB, 시간: 1.66 ms
+메모리: 12.8 MB, 시간: 13.13 ms
 
 ### 구분
 
@@ -12,7 +12,7 @@
 
 ### 채점결과
 
-Empty
+정확성: 100.0<br/>합계: 100.0 / 100.0
 
 ### 문제 설명
 
